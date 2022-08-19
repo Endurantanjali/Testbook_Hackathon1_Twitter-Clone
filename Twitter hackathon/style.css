@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color:white;
+    display: flex;
+   
+   
+}
+
+/* Sidebar left starts */
+
+
+.leftsidebar{
+    background-color: white;
+    flex:0.2;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 200px;
+    border-right: 1px solid lightgray;
+    
+}
+.birdpic img{
+    height: 50px;
+}
+.birdpic{
+margin-bottom: 40px;
+}
+.Nav_icons{
+    display: flex;
+   align-items: center;
+   margin-bottom: 40px;
+   height: 40px;
+}
+
+
+.material-icons{
+    margin-right: 30px;
+    
+}
+.Nav_icons:hover{
+    color: rgb(29, 147, 187);
+    background-color: rgb(212, 238, 238);
+     border-radius: 30px;
+    cursor: pointer;
+    transition: color 100ms ease-in-out;
+
+}
+.Nav_icons.active{
+    color: rgb(93, 179, 207);
+}
+
+.tweet{
+    width: 100%;
+    background-color: lightseagreen;
+    border: none;
+    color: white;
+    font-weight: 900;
+    border-radius: 30px;
+    height: 50px;
+    
+}
+
+/* Sidebar left Ends */
+
+
+/*Center-Post starts */
+
+.post{
+   background-color: white;
+   flex: 0.5;
+   border-right: 1px solid lightgray;
+   min-width: fit-content;
+  
+     
+}
+
+
+
+.Home{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 20px;
+    border: 1px solid lightgray;
+   
+}
+.feed{
+    padding: 20px;
+    display: flex;
+    border: 1px solid lightgray;  
+}
+
+
+.feed input{
+    width: 500px;
+    border: none;
+}
+
+.feed img{
+    height: 40px;
+    margin-right: 20px;
+
+}
+.feedbox{
+    display: flex;
+    margin-bottom: 10px;
+}
+.tweet1{
+   float: right;
+   width: 100px;
+    background-color: lightseagreen;
+    border: none;
+    color: white;
+    font-weight: 900;
+    border-radius: 30px;
+    height: 50px;
+    cursor: pointer;
+
+
+}
+.post2{
+    display: flex;
+    padding: 20px;
+    border-top: 5px solid lightgray;
+}
+.feedbox1 img{
+    height: 40px;
+    margin-right: 20px;
+}
+.feed_info{
+    display: grid;
+}
+.feeddata{
+    display: flex;
+}
+.feeddata img{
+    height: 20px;
+}
+.feeddata1{
+    display: flex;
+    margin-bottom: 10px;
+}
+.feeddata2 img{
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+
+}
+.feedicons{
+    display: flex;
+    justify-content: space-around;
+}
+.post3{
+    display: flex;
+    padding: 20px;
+    border: 1px solid lightgray;   
+}
+
+/*Center-Post ends */
+
+/*Sidebar right starts */
+
+.sidebarright{
+    flex: 0.3;
+
+}
+.widgets_input{
+    display: flex;
+ 
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+   margin-left: 20px;
+    background-color:rgb(218, 231, 236);
+}
+.widgets_input input{
+  width: 200px;
+  border:none ;
+    background-color:rgb(218, 231, 236);
+}
+.widget_container{
+    background-color:rgb(241, 239, 239);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+    
+}
+.widget_data{
+    background-color: white;
+    margin-top: 20px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    padding: 10px;
+     margin-bottom: 20px;
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Sidebar right ends */
